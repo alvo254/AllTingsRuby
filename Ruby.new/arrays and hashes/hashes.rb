@@ -13,5 +13,12 @@ selection = {
 puts selection
 p selection['color']
 puts selection['age']
+puts selection['tribe'] # puts doesnt explicitly print nil
 
 # p displays values such a nil explicitly
+
+history = Hash.new(0)
+puts history
+history['retro'] + 1
+
+puts history['retro']
