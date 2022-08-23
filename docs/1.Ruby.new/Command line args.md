@@ -1,0 +1,2 @@
+When you run a Ruby program from the command line, you can pass in arguments. These are accessible in two different ways
+First, the array ARGV contains each of the arguments passed to the running program. Create a file called cmd_line.rb that contains the following:
