@@ -18,6 +18,10 @@ class BookInStock
 
 end
 
+# Here we’ve used attribute methods to create a virtual instance variable. To the outside world,
+# price_in_cents seems to be an attribute like any other. Internally, though, it has no corresponding
+# instance variable.
+
 abook = BookInStock.new("ISBN", 120)
 puts abook.price_in_cents # to get price in cents
 abook.pricecents = 1234
