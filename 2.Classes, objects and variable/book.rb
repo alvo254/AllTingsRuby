@@ -10,10 +10,13 @@ class BookInStock
     def initialize(isbn, price)
         @isbn = isbn
         @price = Float(price)
+    end
 
+    def to_s  #Used to convert to string
+        "ISBN: #{@isbn}, price #{@price}"
     end
 
 end
 
 abook = BookInStock.new("isbn", 12.30)
-p abook
+puts abook
