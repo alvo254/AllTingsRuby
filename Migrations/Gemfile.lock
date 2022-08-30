@@ -11,12 +11,19 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    coderay (1.1.3)
     concurrent-ruby (1.1.10)
+    faker (2.22.0)
+      i18n (>= 1.8.11, < 2)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
     minitest (5.16.3)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     rack (2.2.4)
     rack-protection (2.2.2)
       rack
@@ -40,6 +47,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  faker
+  pry
   rake
   sinatra-activerecord
   sqlite3
